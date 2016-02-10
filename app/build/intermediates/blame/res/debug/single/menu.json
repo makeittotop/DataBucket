@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/apareek/AndroidStudioProjects/PhotoBucket/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/apareek/AndroidStudioProjects/PhotoBucket/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/apareek/AndroidStudioProjects/aws-sdk-android-samples/PhotoBucket/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/apareek/AndroidStudioProjects/aws-sdk-android-samples/PhotoBucket/app/src/main/res/menu/menu_main.xml"
+    }
+]

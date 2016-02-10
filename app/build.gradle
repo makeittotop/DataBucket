@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "io.abhishekpareek.photobucket"
+        minSdkVersion 10
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/aws-android-sdk-cognito-2.2.11.jar')
+    compile files('libs/aws-android-sdk-core-2.2.11.jar')
+    compile files('libs/aws-android-sdk-s3-2.2.11.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'commons-codec:commons-codec:1.10'
+    compile files('libs/login-with-amazon-sdk.jar')
+}
